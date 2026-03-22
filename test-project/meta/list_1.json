@@ -1,0 +1,21 @@
+{
+  "page": 1,
+  "totalPosts": 1,
+  "items": [
+    {
+      "slug": "test-blog-1",
+      "title": "test blog 1",
+      "createdAt": "2026-03-20T11:46:26.872Z",
+      "updatedAt": "2026-03-20T11:46:26.872Z",
+      "metadata": {
+        "title": "test blog 1",
+        "description": "sample description",
+        "heroImage": "",
+        "draft": false
+      },
+      "description": "sample description",
+      "heroImage": "",
+      "draft": false
+    }
+  ]
+}

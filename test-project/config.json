@@ -1,0 +1,7 @@
+{
+  "pageSize": 10,
+  "sortOrder": "desc",
+  "filePrefix": "list_",
+  "contentPath": "/posts",
+  "metaPath": "/meta"
+}
