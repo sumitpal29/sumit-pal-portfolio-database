@@ -1,0 +1,12 @@
+{
+  "pageSize": 10,
+  "sortOrder": "desc",
+  "filePrefix": "list_",
+  "contentPath": "/posts",
+  "metaPath": "/meta",
+  "git": {
+    "remoteUrl": "git@github.com:sumitpal29/sumit-pal-portfolio-database.git",
+    "branch": "main",
+    "commitMessage": "Update blog data"
+  }
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "role": "Staff Engineer",
+    "company": "Tekion Corp",
+    "link": "https://tekion.com",
+    "period": "2021 - Present",
+    "slug": "tekion-corp",
+    "description": "Tekion is a cloud-native automotive retail platform transforming dealership operations through modern software products across sales, service, CRM, and digital retail.",
+    "responsibilities": [
+      "Leading engineering initiatives across core products including CMS and VMS with focus on scalability, reliability, and release excellence",
+      "Driving architecture decisions, mentoring engineers, and reviewing code to raise overall engineering standards",
+      "Owned cross-team platform integrations and delivered reusable solutions consumed by multiple product teams",
+      "Improved development velocity by reducing bugs, streamlining releases, and strengthening engineering processes"
+    ]
+  }
+]

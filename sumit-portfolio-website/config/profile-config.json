@@ -1,0 +1,36 @@
+{
+  "about": [
+    "Hello! I'm a full-stack developer with a passion for creating elegant solutions to complex problems. My journey into web development started when I decided to learn coding and haven't looked back since.",
+    "Fast-forward to today, and I've had the privilege of working at an advertising agency, a start-up, and a huge corporation. My interest in web development has led me to take on more and more responsibility over the years.",
+    "When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the community through writing and speaking."
+  ],
+  "skills": [
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Next.js",
+    "Node.js",
+    "PostgreSQL",
+    "Tailwind CSS",
+    "Framer Motion"
+  ],
+  "email": "hello@example.com",
+  "socials": [
+    {
+      "name": "Twitter",
+      "href": "https://twitter.com"
+    },
+    {
+      "name": "GitHub",
+      "href": "https://github.com"
+    },
+    {
+      "name": "LinkedIn",
+      "href": "https://linkedin.com"
+    },
+    {
+      "name": "CodePen",
+      "href": "https://codepen.io"
+    }
+  ]
+}
