@@ -1,16 +1,35 @@
 [
   {
-    "role": "Staff Engineer",
+    "role": "Staff Software Engineer",
     "company": "Tekion Corp",
     "link": "https://tekion.com",
-    "period": "2021 - Present",
-    "slug": "tekion-corp",
-    "description": "Tekion is a cloud-native automotive retail platform transforming dealership operations through modern software products across sales, service, CRM, and digital retail.",
+    "period": "Aug 2020 - Present",
+    "slug": "tekion",
+    "description": "Tekion is an AI-native, cloud-based automotive retail platform connecting OEMs, dealers, and consumers into one modern ecosystem. The platform powers sales, service, CRM, operations, and digital retail experiences at scale.",
     "responsibilities": [
-      "Leading engineering initiatives across core products including CMS and VMS with focus on scalability, reliability, and release excellence",
-      "Driving architecture decisions, mentoring engineers, and reviewing code to raise overall engineering standards",
-      "Owned cross-team platform integrations and delivered reusable solutions consumed by multiple product teams",
-      "Improved development velocity by reducing bugs, streamlining releases, and strengthening engineering processes"
+      "Led major performance initiatives that improved application speed by up to 90% across high-traffic customer-facing products.",
+      "Designed and delivered Custom Fields architecture across frontend and backend systems, enabling scalable business configuration for enterprise customers.",
+      "Led the frontend engineering of a complex Workflow Engine product featuring dynamic UI rendering, interactive logic systems, and high-performance state updates.",
+      "Built reusable packaged applications and internal modules distributed through Tekion’s internal registry for faster product development.",
+      "Owned architecture decisions, mentored engineers, reviewed code, and improved engineering quality across multiple teams.",
+      "Mentored UI interns from beginner to advanced level, helping accelerate onboarding and practical engineering skills.",
+      "Delivered cross-team platform integrations and reusable solutions consumed by multiple internal product teams."
+    ]
+  },
+  {
+    "role": "Associate Team Lead - Software Engineer",
+    "company": "FusionCharts",
+    "link": "https://www.fusioncharts.com/",
+    "period": "July 2016 - Aug 2020",
+    "slug": "fusioncharts",
+    "description": "FusionCharts helps teams transform complex data into clear, interactive, and visually rich dashboards, charts, and reporting experiences used by businesses worldwide.",
+    "responsibilities": [
+      "Led frontend architecture modernization of FusionCharts web applications by migrating legacy PHP systems to Node.js with Vue.js SSR.",
+      "Achieved major improvements in performance, SEO, accessibility, maintainability, and browser compatibility across core products.",
+      "Designed and built a reusable Design System from scratch, enabling consistency across products and faster collaboration between design and engineering teams.",
+      "Built visual regression systems to compare old and new UI states, ensuring pixel-perfect releases and safer deployments.",
+      "Contributed to Fusion Store, an internal chart playground similar to JSFiddle for creating, testing, and storing chart configurations.",
+      "Collaborated closely with product, design, and engineering teams to improve developer workflows and customer experience."
     ]
   }
 ]

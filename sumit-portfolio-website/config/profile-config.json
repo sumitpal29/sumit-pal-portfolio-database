@@ -1,8 +1,10 @@
 {
   "about": [
-    "Hello! I'm a full-stack developer with a passion for creating elegant solutions to complex problems. My journey into web development started when I decided to learn coding and haven't looked back since.",
-    "Fast-forward to today, and I've had the privilege of working at an advertising agency, a start-up, and a huge corporation. My interest in web development has led me to take on more and more responsibility over the years.",
-    "When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the community through writing and speaking."
+    "Hello! I'm Sumit Pal — a builder, problem-solver, and engineer who loves turning ambitious ideas into products people actually use. I thrive where code meets impact: fast systems, sharp user experiences, and solutions that scale.",
+    "Over the years, I’ve grown from writing features to leading initiatives, mentoring engineers, improving product quality, and owning high-impact systems across multiple teams. I enjoy simplifying chaos, fixing bottlenecks, and creating momentum wherever I work.",
+    "My playground spans full-stack engineering, performance optimization, platform architecture, AI-powered tools, and product experiments. If there’s a messy process, slow app, or bold idea — I’m probably already thinking of three ways to improve it.",
+    "Outside work, I’m obsessed with learning, building side projects, studying markets, exploring travel ideas, and designing businesses from scratch. I like creating things that compound over time — products, skills, wealth, and memories.",
+    "In short: I write code, build systems, chase growth, and stay curious."
   ],
   "skills": [
     "JavaScript",
@@ -10,27 +12,31 @@
     "React",
     "Next.js",
     "Node.js",
+    "Python",
     "PostgreSQL",
+    "MongoDB",
     "Tailwind CSS",
-    "Framer Motion"
+    "Framer Motion",
+    "System Design",
+    "Performance Optimization",
+    "Micro Frontends",
+    "Module Federation",
+    "AI Product Building",
+    "Cloud Architecture"
   ],
-  "email": "hello@example.com",
+  "email": "sumitpal.2993@gmail.com",
   "socials": [
     {
-      "name": "Twitter",
-      "href": "https://twitter.com"
-    },
-    {
       "name": "GitHub",
-      "href": "https://github.com"
+      "href": "https://github.com/sumitpal29"
     },
     {
       "name": "LinkedIn",
-      "href": "https://linkedin.com"
+      "href": "https://www.linkedin.com/in/sumitpal29"
     },
     {
-      "name": "CodePen",
-      "href": "https://codepen.io"
+      "name": "Instagram",
+      "href": "https://www.instagram.com/sumitpal.29"
     }
   ]
 }

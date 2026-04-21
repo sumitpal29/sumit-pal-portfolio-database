@@ -1,30 +1,48 @@
 [
   {
-    "title": "AI Chat Dashboard",
-    "description": "A comprehensive dashboard for managing AI conversations with real-time analytics and user insights.",
+    "title": "Git-Backed Developer Portfolio",
+    "description": "A high-performance personal portfolio built on a unique Git-as-a-Database architecture. Content is managed separately through a headless Git workflow and fetched dynamically from GitHub using a custom SDK, combining static speed with dynamic flexibility through ISR.",
     "tech": [
-      "Next.js",
+      "Next.js 16",
+      "React 19",
       "TypeScript",
-      "PostgreSQL",
-      "Tailwind CSS",
-      "WebSockets"
+      "Tailwind CSS 4",
+      "Framer Motion",
+      "Radix UI",
+      "ISR"
     ],
-    "link": "https://your-live-demo.com",
-    "github": "https://github.com/your-repo",
-    "year": "2024"
+    "link": null,
+    "github": "https://github.com/sumitpal29/sumit-pal-webapp-2026",
+    "year": "2025"
   },
   {
-    "title": "Dev Blog Engine",
-    "description": "A performant blogging platform with markdown support, SEO optimization, and serverless deployment.",
+    "title": "Blog Database CMS",
+    "description": "A lightweight Git-backed headless CMS that transforms a GitHub repository into a zero-database content management system. Includes a visual React editor, Express backend for metadata generation, and a custom SDK for fast edge-cached content fetching.",
     "tech": [
       "React",
       "Node.js",
-      "MongoDB",
-      "AWS",
-      "GraphQL"
+      "Express.js",
+      "Vite",
+      "Tailwind CSS",
+      "simple-git"
     ],
-    "link": "https://live-URL-here.com",
-    "github": "https://github.com/your-repo",
-    "year": "2023"
+    "link": null,
+    "github": "https://github.com/sumitpal29/git-as-blog-db",
+    "year": "2025"
+  },
+  {
+    "title": "Suri Legal Advocates",
+    "description": "A modern legal services platform built for Suri Legal Advocates, showcasing professional legal expertise across civil litigation, criminal law, taxation, and real estate matters with a polished digital presence.",
+    "tech": [
+      "React",
+      "Vite",
+      "TypeScript",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Lucide React"
+    ],
+    "link": null,
+    "github": "https://github.com/sumitpal29/suri-legal-advocates",
+    "year": "2025"
   }
 ]
