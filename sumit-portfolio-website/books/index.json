@@ -1,0 +1,10 @@
+{
+  "books": [
+    {
+      "slug": "test-book",
+      "name": "test-book",
+      "description": ""
+    }
+  ],
+  "generatedAt": "2026-05-01T12:21:13.993Z"
+}

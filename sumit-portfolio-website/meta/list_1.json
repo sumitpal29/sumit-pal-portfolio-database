@@ -1,7 +1,24 @@
 {
   "page": 1,
-  "totalPosts": 1,
+  "totalPosts": 2,
   "items": [
+    {
+      "slug": "decoding-styled-components-resolution-in-package-json",
+      "title": "Decoding Styled Components Resolution in package.json",
+      "createdAt": "2026-05-01T12:20:32.128Z",
+      "updatedAt": "2026-05-01T12:20:51.404Z",
+      "metadata": {
+        "title": "Decoding Styled Components Resolution in package.json",
+        "description": "",
+        "heroImage": "https://i.imgur.com/ToTJANu.png",
+        "draft": true,
+        "publishedAt": "2023-09-28T15:18:00.000Z"
+      },
+      "description": "",
+      "heroImage": "https://i.imgur.com/ToTJANu.png",
+      "draft": false,
+      "publishedAt": "2023-09-28T04:18:00.000Z"
+    },
     {
       "slug": "jwt-vs-paseto-why-auth-needs-an-upgrade",
       "title": "JWT vs PASETO - why Auth needs an upgrade?",

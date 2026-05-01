@@ -1,0 +1,20 @@
+{
+  "name": "chapters",
+  "type": "folder",
+  "createdAt": "2026-04-25T19:43:28.122Z",
+  "updatedAt": "2026-04-25T19:44:12.415Z",
+  "items": [
+    {
+      "type": "file",
+      "name": "chapter-1",
+      "path": "chapters/chapter-1.md",
+      "description": ""
+    },
+    {
+      "type": "folder",
+      "name": "aaa",
+      "path": "chapters/aaa",
+      "description": ""
+    }
+  ]
+}
