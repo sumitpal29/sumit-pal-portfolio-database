@@ -1,12 +1,8 @@
 ---
-title: >-
-  Avoiding New Folder Creation with the create-react-app CommandAvoiding New
-  Folder Creation with the create-react-app CommandAvoiding New Folder Creation
-  with the create-react-app Command
-slug: >-
-  avoiding-new-folder-creation-with-the-create-react-app-commandavoiding-new-folder-creation-with-the-create-react-app-commandavoiding-new-folder-creation-with-the-create-react-app-command
+title: Avoiding New Folder Creation with the create-react-app Command
+slug: avoiding-new-folder-creation-with-createreactapp-command
 createdAt: '2026-05-02T15:47:32.177Z'
-updatedAt: '2026-05-02T15:47:32.177Z'
+updatedAt: '2026-05-02T19:45:29.748Z'
 metadata:
   title: >-
     Avoiding New Folder Creation with the create-react-app CommandAvoiding New
@@ -19,7 +15,7 @@ metadata:
 description: ''
 heroImage: 'https://i.imgur.com/Y4r8lLR.png'
 draft: false
-publishedAt: '2023-09-11T15:47:00.000Z'
+publishedAt: '2023-09-10T23:17:00.000Z'
 ---
 The create-react-app command is a powerful tool for setting up React projects, complete with essential tools and even TypeScript support.
 

@@ -37,10 +37,10 @@
       "publishedAt": "2023-09-17T15:48:00.000Z"
     },
     {
-      "slug": "avoiding-new-folder-creation-with-the-create-react-app-commandavoiding-new-folder-creation-with-the-create-react-app-commandavoiding-new-folder-creation-with-the-create-react-app-command",
-      "title": "Avoiding New Folder Creation with the create-react-app CommandAvoiding New Folder Creation with the create-react-app CommandAvoiding New Folder Creation with the create-react-app Command",
+      "slug": "avoiding-new-folder-creation-with-createreactapp-command",
+      "title": "Avoiding New Folder Creation with the create-react-app Command",
       "createdAt": "2026-05-02T15:47:32.177Z",
-      "updatedAt": "2026-05-02T15:47:32.177Z",
+      "updatedAt": "2026-05-02T19:45:29.748Z",
       "metadata": {
         "title": "Avoiding New Folder Creation with the create-react-app CommandAvoiding New Folder Creation with the create-react-app CommandAvoiding New Folder Creation with the create-react-app Command",
         "description": "",
@@ -51,7 +51,7 @@
       "description": "",
       "heroImage": "https://i.imgur.com/Y4r8lLR.png",
       "draft": false,
-      "publishedAt": "2023-09-11T15:47:00.000Z"
+      "publishedAt": "2023-09-10T23:17:00.000Z"
     },
     {
       "slug": "linking-your-github-repo-for-easy-npm-access",
