@@ -1,0 +1,30 @@
+{
+  "name": "introduction",
+  "displayName": "introduction",
+  "type": "folder",
+  "createdAt": "2026-05-03T10:53:02.474Z",
+  "updatedAt": "2026-05-03T11:12:48.971Z",
+  "items": [
+    {
+      "type": "file",
+      "name": "what-is-static-cms",
+      "displayName": "What is static CMS",
+      "path": "introduction/what-is-static-cms.md",
+      "description": ""
+    },
+    {
+      "type": "file",
+      "name": "how-it-works",
+      "displayName": "How It Works",
+      "path": "introduction/how-it-works.md",
+      "description": ""
+    },
+    {
+      "type": "file",
+      "name": "when-to-use-static-cms",
+      "displayName": "When to Use Static CMS",
+      "path": "introduction/when-to-use-static-cms.md",
+      "description": ""
+    }
+  ]
+}

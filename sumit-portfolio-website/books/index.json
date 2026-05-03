@@ -1,4 +1,10 @@
 {
-  "books": [],
-  "generatedAt": "2026-05-03T10:10:10.526Z"
+  "books": [
+    {
+      "slug": "static-cms-complete-guide",
+      "name": "Static CMS — Complete Guide",
+      "description": ""
+    }
+  ],
+  "generatedAt": "2026-05-03T11:22:55.725Z"
 }

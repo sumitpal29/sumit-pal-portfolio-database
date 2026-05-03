@@ -2,17 +2,17 @@
 title: 'From Prompts to Context Engineering: How AI Really Understands You'
 slug: from-prompts-context-engineering-how-ai-really-understands
 createdAt: '2026-05-03T10:07:26.194Z'
-updatedAt: '2026-05-03T10:09:15.186Z'
+updatedAt: '2026-05-03T11:22:54.205Z'
 metadata:
   title: 'From Prompts to Context Engineering: How AI Really Understands You'
   description: ''
   draft: true
   slug: from-prompts-context-engineering-how-ai-really-understands
 description: ''
-draft: true
+draft: false
 heroImage: >-
-  https://raw.githubusercontent.com/sumitpal29/sumit-pal-portfolio-database/main/assets/from-prompts-context-engineering-how-ai-really-understands.png
-publishedAt: '2026-05-03T04:38:00.000Z'
+  https://raw.githubusercontent.com/sumitpal29/sumit-pal-portfolio-database/main/sumit-portfolio-website/assets/from-prompts-context-engineering-how-ai-really-understands.png
+publishedAt: '2026-05-02T17:38:00.000Z'
 ---
 If you’ve ever typed something into ChatGPT, Grok, or Gemini and got an answer back, congratulations — you’ve already done **prompting**.
 

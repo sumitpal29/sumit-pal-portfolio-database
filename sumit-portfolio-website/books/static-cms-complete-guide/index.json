@@ -1,0 +1,24 @@
+{
+  "name": "Static CMS — Complete Guide",
+  "slug": "static-cms-complete-guide",
+  "description": "",
+  "type": "book",
+  "createdAt": "2026-05-03T10:52:29.706Z",
+  "updatedAt": "2026-05-03T11:14:30.188Z",
+  "items": [
+    {
+      "type": "folder",
+      "name": "introduction",
+      "displayName": "introduction",
+      "path": "introduction",
+      "description": ""
+    },
+    {
+      "type": "folder",
+      "name": "getting-started",
+      "displayName": "getting-started",
+      "path": "getting-started",
+      "description": ""
+    }
+  ]
+}

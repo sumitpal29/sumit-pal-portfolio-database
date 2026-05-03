@@ -1,0 +1,77 @@
+{
+  "slug": "static-cms-complete-guide",
+  "name": "Static CMS — Complete Guide",
+  "description": "",
+  "type": "book",
+  "generatedAt": "2026-05-03T11:22:55.724Z",
+  "tree": {
+    "name": "Static CMS — Complete Guide",
+    "slug": "static-cms-complete-guide",
+    "description": "",
+    "type": "book",
+    "createdAt": "2026-05-03T10:52:29.706Z",
+    "updatedAt": "2026-05-03T11:14:30.188Z",
+    "items": [
+      {
+        "type": "folder",
+        "name": "introduction",
+        "displayName": "introduction",
+        "path": "introduction",
+        "description": "",
+        "items": [
+          {
+            "type": "file",
+            "name": "what-is-static-cms",
+            "displayName": "What is static CMS",
+            "path": "introduction/what-is-static-cms.md",
+            "description": ""
+          },
+          {
+            "type": "file",
+            "name": "how-it-works",
+            "displayName": "How It Works",
+            "path": "introduction/how-it-works.md",
+            "description": ""
+          },
+          {
+            "type": "file",
+            "name": "when-to-use-static-cms",
+            "displayName": "When to Use Static CMS",
+            "path": "introduction/when-to-use-static-cms.md",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "type": "folder",
+        "name": "getting-started",
+        "displayName": "getting-started",
+        "path": "getting-started",
+        "description": "",
+        "items": [
+          {
+            "type": "file",
+            "name": "prerequisites",
+            "displayName": "Prerequisites",
+            "path": "getting-started/prerequisites.md",
+            "description": ""
+          },
+          {
+            "type": "file",
+            "name": "installation",
+            "displayName": "Installation",
+            "path": "getting-started/installation.md",
+            "description": ""
+          },
+          {
+            "type": "file",
+            "name": "creating-your-first-project",
+            "displayName": "Creating Your First Project",
+            "path": "getting-started/creating-your-first-project.md",
+            "description": ""
+          }
+        ]
+      }
+    ]
+  }
+}

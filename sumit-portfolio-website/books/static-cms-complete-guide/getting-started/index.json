@@ -1,0 +1,30 @@
+{
+  "name": "getting-started",
+  "displayName": "getting-started",
+  "type": "folder",
+  "createdAt": "2026-05-03T11:14:30.185Z",
+  "updatedAt": "2026-05-03T11:19:57.330Z",
+  "items": [
+    {
+      "type": "file",
+      "name": "prerequisites",
+      "displayName": "Prerequisites",
+      "path": "getting-started/prerequisites.md",
+      "description": ""
+    },
+    {
+      "type": "file",
+      "name": "installation",
+      "displayName": "Installation",
+      "path": "getting-started/installation.md",
+      "description": ""
+    },
+    {
+      "type": "file",
+      "name": "creating-your-first-project",
+      "displayName": "Creating Your First Project",
+      "path": "getting-started/creating-your-first-project.md",
+      "description": ""
+    }
+  ]
+}

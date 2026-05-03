@@ -3,21 +3,20 @@
   "totalPosts": 11,
   "items": [
     {
-      "slug": "decoding-styled-components-resolution-in-packagejson",
-      "title": "Decoding Styled Components Resolution in package.json",
-      "createdAt": "2026-05-02T15:55:22.065Z",
-      "updatedAt": "2026-05-02T15:55:22.065Z",
+      "slug": "from-prompts-context-engineering-how-ai-really-understands",
+      "title": "From Prompts to Context Engineering: How AI Really Understands You",
+      "createdAt": "2026-05-03T10:07:26.194Z",
+      "updatedAt": "2026-05-03T11:22:54.205Z",
       "metadata": {
-        "title": "Decoding Styled Components Resolution in package.json",
+        "title": "From Prompts to Context Engineering: How AI Really Understands You",
         "description": "",
-        "heroImage": "https://i.imgur.com/ToTJANu.png",
-        "draft": false,
-        "publishedAt": "2023-09-23T15:54:00.000Z"
+        "draft": true,
+        "slug": "from-prompts-context-engineering-how-ai-really-understands"
       },
       "description": "",
-      "heroImage": "https://i.imgur.com/ToTJANu.png",
       "draft": false,
-      "publishedAt": "2023-09-23T15:54:00.000Z"
+      "heroImage": "https://raw.githubusercontent.com/sumitpal29/sumit-pal-portfolio-database/main/sumit-portfolio-website/assets/from-prompts-context-engineering-how-ai-really-understands.png",
+      "publishedAt": "2026-05-02T17:38:00.000Z"
     },
     {
       "slug": "big-o-time-complexity-made-easy-a-casual-guide",
