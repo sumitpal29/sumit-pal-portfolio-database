@@ -1,10 +1,4 @@
 {
-  "books": [
-    {
-      "slug": "test-book",
-      "name": "test-book",
-      "description": ""
-    }
-  ],
-  "generatedAt": "2026-05-02T19:45:30.783Z"
+  "books": [],
+  "generatedAt": "2026-05-03T10:10:10.526Z"
 }
