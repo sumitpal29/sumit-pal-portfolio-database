@@ -1,7 +1,24 @@
 {
   "page": 1,
-  "totalPosts": 11,
+  "totalPosts": 12,
   "items": [
+    {
+      "slug": "how-i-built-my-favourite-vs-code-theme-published-marketplace",
+      "title": "How I Built My Favourite VS Code Theme and Published It to the Marketplace",
+      "createdAt": "2026-05-04T13:27:17.143Z",
+      "updatedAt": "2026-05-04T13:28:00.722Z",
+      "metadata": {
+        "title": "How I Built My Favourite VS Code Theme and Published It to the Marketplace",
+        "description": "",
+        "draft": true,
+        "publishedAt": "2026-05-04T07:57:00.000Z",
+        "slug": "how-i-built-my-favourite-vs-code-theme-published-marketplace"
+      },
+      "description": "",
+      "draft": false,
+      "publishedAt": "2026-05-04T02:27:00.000Z",
+      "heroImage": "https://raw.githubusercontent.com/sumitpal29/sumit-pal-portfolio-database/main/sumit-portfolio-website/assets/calm-coder-themes.png"
+    },
     {
       "slug": "from-prompts-context-engineering-how-ai-really-understands",
       "title": "From Prompts to Context Engineering: How AI Really Understands You",
@@ -153,23 +170,6 @@
       "heroImage": "https://i.imgur.com/n7VlWXq.png",
       "draft": false,
       "publishedAt": "2025-03-03T10:06:00.000Z"
-    },
-    {
-      "slug": "decoding-styled-components-resolution-in-package-json",
-      "title": "Decoding Styled Components Resolution in package.json",
-      "createdAt": "2026-05-01T12:20:32.128Z",
-      "updatedAt": "2026-05-01T12:20:51.404Z",
-      "metadata": {
-        "title": "Decoding Styled Components Resolution in package.json",
-        "description": "",
-        "heroImage": "https://i.imgur.com/ToTJANu.png",
-        "draft": true,
-        "publishedAt": "2023-09-28T15:18:00.000Z"
-      },
-      "description": "",
-      "heroImage": "https://i.imgur.com/ToTJANu.png",
-      "draft": false,
-      "publishedAt": "2023-09-28T04:18:00.000Z"
     }
   ]
 }
