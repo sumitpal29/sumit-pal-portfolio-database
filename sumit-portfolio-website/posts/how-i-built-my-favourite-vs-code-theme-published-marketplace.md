@@ -12,8 +12,7 @@ metadata:
 description: ''
 draft: false
 publishedAt: '2026-05-03T20:57:00.000Z'
-heroImage: >-
-  https://raw.githubusercontent.com/sumitpal29/sumit-pal-portfolio-database/main/sumit-portfolio-website/assets/calm-coder-themes.png
+heroImage: https://raw.githubusercontent.com/sumitpal29/sumit-pal-portfolio-database/main/sumit-portfolio-website/assets/calm-coder-themes.png
 ---
 *Hi, I'm Sumit — a developer who cares a little too much about how his workspace looks. When I'm not obsessing over color palettes, I build web apps and ship side projects. This one happens to be both.*
 
