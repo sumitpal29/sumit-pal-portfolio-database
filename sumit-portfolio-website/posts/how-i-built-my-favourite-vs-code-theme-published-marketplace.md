@@ -2,7 +2,7 @@
 title: How I Built My Favourite VS Code Theme and Published It to the Marketplace
 slug: how-i-built-my-favourite-vs-code-theme-published-marketplace
 createdAt: '2026-05-04T13:27:17.143Z'
-updatedAt: '2026-05-04T13:28:00.722Z'
+updatedAt: '2026-05-04T17:21:42.002Z'
 metadata:
   title: How I Built My Favourite VS Code Theme and Published It to the Marketplace
   description: ''
@@ -11,7 +11,7 @@ metadata:
   slug: how-i-built-my-favourite-vs-code-theme-published-marketplace
 description: ''
 draft: false
-publishedAt: '2026-05-04T02:27:00.000Z'
+publishedAt: '2026-05-03T20:57:00.000Z'
 heroImage: >-
   https://raw.githubusercontent.com/sumitpal29/sumit-pal-portfolio-database/main/sumit-portfolio-website/assets/calm-coder-themes.png
 ---
@@ -294,6 +294,6 @@ And if you try the extension, **please leave a rating on the marketplace** — i
 
 ## Let's Talk
 
-If you install it and have thoughts — good, bad, or "please change this one color" — I'd genuinely love to hear from you. Reach out and say hi, I read every message.
+If you install it and have thoughts — good, bad, or "please change this one color", I'd genuinely love to hear from you. Reach out and say hi, I read every message.
 
-Happy coding. 🎨
+Happy coding!
