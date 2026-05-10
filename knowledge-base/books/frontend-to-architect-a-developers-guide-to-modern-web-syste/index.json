@@ -1,0 +1,17 @@
+{
+  "name": "Frontend to Architect: A Developer's Guide to Modern Web Systems",
+  "slug": "frontend-to-architect-a-developers-guide-to-modern-web-syste",
+  "description": "A practical guide for frontend developers who want to understand the full web stack — from React and Node.js to distributed systems, cloud infrastructure, and system design. Built chapter by chapter as a real learning journey, with interview questions and flashcards included. Aimed at engineers who want to work at the highest levels of the industry.",
+  "type": "book",
+  "createdAt": "2026-05-10T12:20:55.067Z",
+  "updatedAt": "2026-05-10T12:27:35.910Z",
+  "items": [
+    {
+      "type": "file",
+      "name": "preface",
+      "displayName": "Preface",
+      "path": "preface.md",
+      "description": ""
+    }
+  ]
+}
