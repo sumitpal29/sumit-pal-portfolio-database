@@ -1,0 +1,107 @@
+{
+  "id": "react-hooks",
+  "title": "React Hooks",
+  "description": "Core React hooks — when to use them, how they work, and common pitfalls",
+  "tags": [
+    "react",
+    "hooks",
+    "frontend-interview"
+  ],
+  "cards": [
+    {
+      "id": "rh-001",
+      "question": "What is the difference between `useMemo` and `useCallback`?",
+      "answerType": "markdown",
+      "answer": "`useMemo` memoizes a computed **value**. `useCallback` memoizes a **function reference**.\n\n```js\n// useMemo — caches the return value\nconst sorted = useMemo(() => items.sort(), [items]);\n\n// useCallback — caches the function itself\nconst handleClick = useCallback(() => doThing(id), [id]);\n```\n\nUse `useCallback` when passing callbacks to memoized child components to prevent unnecessary re-renders.",
+      "hint": "Think about what each one *returns* — a value or a function.",
+      "tags": [
+        "react",
+        "hooks",
+        "performance",
+        "frontend-interview"
+      ]
+    },
+    {
+      "id": "rh-002",
+      "question": "What triggers a re-render in React?",
+      "answerType": "markdown",
+      "answer": "Four things cause a component to re-render:\n\n1. **State change** — a `useState` setter is called\n2. **Prop change** — parent passes a new value\n3. **Context change** — a consumed context value updates\n4. **Parent re-render** — unless the component is wrapped in `React.memo`",
+      "tags": [
+        "react",
+        "rendering",
+        "frontend-interview"
+      ]
+    },
+    {
+      "id": "rh-003",
+      "question": "When does `useEffect` run, and what does its dependency array control?",
+      "answerType": "markdown",
+      "answer": "`useEffect` runs **after every render** by default.\n\nThe dependency array changes that:\n\n```js\nuseEffect(() => { ... });           // runs after every render\nuseEffect(() => { ... }, []);       // runs once after mount\nuseEffect(() => { ... }, [count]); // runs when `count` changes\n```\n\nThe cleanup function (if returned) runs before the next effect and on unmount.",
+      "hint": "There are three forms — no array, empty array, array with values.",
+      "tags": [
+        "react",
+        "hooks",
+        "frontend-interview"
+      ]
+    },
+    {
+      "id": "rh-004",
+      "question": "What is the difference between `useRef` and `useState`?",
+      "answerType": "markdown",
+      "answer": "Both persist values across renders, but:\n\n| | `useRef` | `useState` |\n|---|---|---|\n| Re-renders on change | No | Yes |\n| Mutable | Yes (`.current`) | No (use setter) |\n| Use case | DOM refs, timers, prev values | UI state |\n\n`useRef` is the right tool when you need a mutable container that **should not** trigger a re-render.",
+      "tags": [
+        "react",
+        "hooks",
+        "frontend-interview"
+      ]
+    },
+    {
+      "id": "rh-005",
+      "question": "What is a custom hook and what are the rules for writing one?",
+      "answerType": "markdown",
+      "answer": "A custom hook is a function whose name starts with `use` and calls other hooks internally.\n\n```js\nfunction useWindowWidth() {\n  const [width, setWidth] = useState(window.innerWidth);\n  useEffect(() => {\n    const handler = () => setWidth(window.innerWidth);\n    window.addEventListener('resize', handler);\n    return () => window.removeEventListener('resize', handler);\n  }, []);\n  return width;\n}\n```\n\n**Rules:**\n- Name must start with `use`\n- Can only be called at the top level (not inside loops or conditions)\n- Can only be called from React function components or other custom hooks",
+      "tags": [
+        "react",
+        "hooks",
+        "frontend-interview"
+      ]
+    },
+    {
+      "id": "rh-006",
+      "question": "Write a `useDebounce` custom hook.",
+      "answerType": "code",
+      "answerLanguage": "typescript",
+      "answer": "function useDebounce<T>(value: T, delay: number): T {\n  const [debounced, setDebounced] = useState(value);\n\n  useEffect(() => {\n    const timer = setTimeout(() => setDebounced(value), delay);\n    return () => clearTimeout(timer);\n  }, [value, delay]);\n\n  return debounced;\n}",
+      "hint": "Use `useEffect` with a `setTimeout` and clean it up on change.",
+      "tags": [
+        "react",
+        "hooks",
+        "utilities"
+      ]
+    },
+    {
+      "id": "rh-007",
+      "question": "Why can't you call hooks inside conditionals or loops?",
+      "answerType": "markdown",
+      "answer": "React tracks hooks by **call order**. Every render must call hooks in the exact same order so React can match each hook call to its stored state.\n\nIf you put a hook inside a condition:\n```js\n// BAD\nif (loggedIn) {\n  const [data] = useState(null); // skipped on logout → order shifts\n}\n```\n\nReact would associate the wrong state with the wrong hook. This is why the Rules of Hooks exist.",
+      "tags": [
+        "react",
+        "hooks",
+        "frontend-interview"
+      ]
+    },
+    {
+      "id": "rh-008",
+      "question": "What is `useReducer` and when should you use it over `useState`?",
+      "answerType": "markdown",
+      "answer": "`useReducer` manages state through a **reducer function** — the same pattern as Redux.\n\n```js\nconst [state, dispatch] = useReducer(reducer, initialState);\ndispatch({ type: 'INCREMENT' });\n```\n\nPrefer `useReducer` over `useState` when:\n- State has multiple sub-values that update together\n- Next state depends on the previous state in complex ways\n- Transition logic is complex enough to test in isolation",
+      "hint": "Think: when would Redux patterns be helpful in a single component?",
+      "tags": [
+        "react",
+        "hooks",
+        "state-management",
+        "frontend-interview"
+      ]
+    }
+  ]
+}

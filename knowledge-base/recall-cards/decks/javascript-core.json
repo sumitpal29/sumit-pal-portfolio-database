@@ -1,0 +1,103 @@
+{
+  "id": "javascript-core",
+  "title": "JavaScript Core",
+  "description": "Closures, async/await, the event loop, prototypes, and ES6+ patterns",
+  "tags": [
+    "javascript",
+    "frontend-interview"
+  ],
+  "cards": [
+    {
+      "id": "jsc-001",
+      "question": "What is a closure in JavaScript?",
+      "answerType": "markdown",
+      "answer": "A closure is a function that **remembers variables from its outer scope** even after that scope has finished executing.\n\n```js\nfunction makeCounter() {\n  let count = 0;\n  return () => ++count; // closes over `count`\n}\nconst counter = makeCounter();\ncounter(); // 1\ncounter(); // 2\n```\n\nThe inner function holds a live reference to `count` — not a copy.",
+      "hint": "Think about what a function 'carries with it' when returned.",
+      "tags": [
+        "javascript",
+        "closures",
+        "frontend-interview"
+      ]
+    },
+    {
+      "id": "jsc-002",
+      "question": "What is the difference between `==` and `===` in JavaScript?",
+      "answerType": "markdown",
+      "answer": "`===` (strict equality) checks **value AND type** — no coercion.\n\n`==` (loose equality) performs **type coercion** before comparing.\n\n```js\n0 == '0'   // true  (string coerced to number)\n0 === '0'  // false (different types)\nnull == undefined  // true\nnull === undefined // false\n```\n\nAlways prefer `===` to avoid surprising coercion bugs.",
+      "tags": [
+        "javascript",
+        "frontend-interview"
+      ]
+    },
+    {
+      "id": "jsc-003",
+      "question": "Explain the JavaScript event loop in one paragraph.",
+      "answerType": "markdown",
+      "answer": "JavaScript is single-threaded. The **call stack** executes synchronous code. Async operations (setTimeout, fetch, etc.) are handed to browser/Node APIs; when they complete, their callbacks are pushed to the **task queue** (macrotasks) or **microtask queue** (Promises). The event loop continuously checks: if the call stack is empty, it drains the microtask queue first, then takes one macrotask and repeats.\n\n**Order:** sync → microtasks (Promises) → macrotask (setTimeout) → microtasks → ...",
+      "hint": "Microtasks (Promises) always run before the next macrotask (setTimeout).",
+      "tags": [
+        "javascript",
+        "async",
+        "frontend-interview"
+      ]
+    },
+    {
+      "id": "jsc-004",
+      "question": "What is the output of this code?\n\n```js\nconsole.log(1);\nsetTimeout(() => console.log(2), 0);\nPromise.resolve().then(() => console.log(3));\nconsole.log(4);\n```",
+      "answerType": "markdown",
+      "answer": "**Output: 1, 4, 3, 2**\n\n- `1` and `4` are synchronous — run immediately\n- `Promise.resolve().then(...)` queues a **microtask** → runs before any macrotask\n- `setTimeout(..., 0)` queues a **macrotask** → runs last\n\nThis is a classic event loop question that tests whether you know Promises drain the microtask queue before `setTimeout` fires.",
+      "tags": [
+        "javascript",
+        "async",
+        "event-loop",
+        "frontend-interview"
+      ]
+    },
+    {
+      "id": "jsc-005",
+      "question": "Write a debounce function in plain JavaScript.",
+      "answerType": "code",
+      "answerLanguage": "javascript",
+      "answer": "function debounce(fn, delay) {\n  let timer;\n  return function (...args) {\n    clearTimeout(timer);\n    timer = setTimeout(() => fn.apply(this, args), delay);\n  };\n}",
+      "hint": "Cancel the previous timer on every call, start a new one.",
+      "tags": [
+        "javascript",
+        "utilities",
+        "frontend-interview"
+      ]
+    },
+    {
+      "id": "jsc-006",
+      "question": "What is the difference between `null` and `undefined`?",
+      "answerType": "markdown",
+      "answer": "- **`undefined`**: a variable was declared but never assigned a value. Also the default return value of functions and missing object properties.\n- **`null`**: an **intentional** absence of value — explicitly assigned by a developer.\n\n```js\nlet a;          // undefined — JS assigned this\nlet b = null;   // null — developer assigned this\n\ntypeof undefined // 'undefined'\ntypeof null      // 'object'  ← historical JS bug\n```",
+      "tags": [
+        "javascript",
+        "frontend-interview"
+      ]
+    },
+    {
+      "id": "jsc-007",
+      "question": "What does `Array.prototype.reduce` do? Write an example that sums an array.",
+      "answerType": "markdown",
+      "answer": "`reduce` iterates an array and **accumulates a single result** by calling a reducer function with the running accumulator and each element.\n\n```js\nconst sum = [1, 2, 3, 4].reduce((acc, n) => acc + n, 0);\n// acc starts at 0\n// 0+1=1, 1+2=3, 3+3=6, 6+4=10\nconsole.log(sum); // 10\n```\n\nCommon uses: sum, flatten, groupBy, count occurrences.",
+      "tags": [
+        "javascript",
+        "arrays",
+        "frontend-interview"
+      ]
+    },
+    {
+      "id": "jsc-008",
+      "question": "What is `this` in JavaScript and how is it determined?",
+      "answerType": "markdown",
+      "answer": "`this` refers to the **execution context** — it's determined by *how* a function is called, not where it's defined.\n\n| Call form | `this` value |\n|---|---|\n| Regular function `fn()` | `undefined` (strict) or `globalThis` |\n| Method `obj.fn()` | `obj` |\n| Arrow function | Inherits from enclosing scope |\n| `new Fn()` | The new instance |\n| `fn.call(ctx)` | `ctx` |\n\nArrow functions do **not** have their own `this` — this is why they're commonly used as callbacks.",
+      "hint": "Arrow functions inherit `this`; regular functions define their own.",
+      "tags": [
+        "javascript",
+        "this",
+        "frontend-interview"
+      ]
+    }
+  ]
+}

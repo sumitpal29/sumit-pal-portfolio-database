@@ -44,12 +44,15 @@ Each project has a `config.json` at its root. You can edit it from the **Setting
   "contentPath": "posts",
   "metaPath": "meta"
 }
+```
+```
 Field	Default	Description
 pageSize	10	Number of posts per generated metadata page.
 sortOrder	"desc"	Sort order for posts in metadata: desc or asc.
 contentPath	"posts"	Subfolder where post Markdown files are stored.
 metaPath	"meta"	Subfolder where generated JSON index files go.
 Managing Projects
+```
 From the home screen you can:
 
 Rename a project — click the rename icon next to the project name and type a new name. This renames the display label only; the folder on disk is not moved.

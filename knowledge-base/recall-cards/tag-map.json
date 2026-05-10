@@ -1,0 +1,71 @@
+{
+  "react": {
+    "label": "React",
+    "description": "React fundamentals, hooks, rendering, component patterns",
+    "decks": [
+      {
+        "file": "react-hooks.json",
+        "relevance": 1
+      }
+    ],
+    "related": [
+      "hooks",
+      "javascript",
+      "frontend-interview",
+      "performance"
+    ],
+    "cardCount": 8
+  },
+  "hooks": {
+    "label": "React Hooks",
+    "description": "useState, useEffect, useMemo, useCallback, useRef and custom hooks",
+    "decks": [
+      {
+        "file": "react-hooks.json",
+        "relevance": 1
+      }
+    ],
+    "related": [
+      "react",
+      "performance",
+      "frontend-interview"
+    ],
+    "cardCount": 8
+  },
+  "javascript": {
+    "label": "JavaScript",
+    "description": "JS core concepts — closures, async, prototypes, event loop",
+    "decks": [
+      {
+        "file": "javascript-core.json",
+        "relevance": 1
+      }
+    ],
+    "related": [
+      "frontend-interview",
+      "async",
+      "es6"
+    ],
+    "cardCount": 8
+  },
+  "frontend-interview": {
+    "label": "Frontend Interview",
+    "description": "Mixed — React, JS, CSS patterns commonly asked in interviews",
+    "decks": [
+      {
+        "file": "react-hooks.json",
+        "relevance": 0.7
+      },
+      {
+        "file": "javascript-core.json",
+        "relevance": 0.8
+      }
+    ],
+    "related": [
+      "react",
+      "javascript",
+      "system-design"
+    ],
+    "cardCount": 16
+  }
+}
