@@ -1,5 +1,16 @@
 [
   {
+    "title": "Calm Coder Themes",
+    "description": "A collection of four eye-friendly VS Code themes — Candy, Dark Candy, Light, and Dark — crafted for developers who spend long hours in their editor. Features soft palettes including warm cream-and-yellow tones, cool ice-white, and deep midnight blue, all designed to reduce eye strain during extended coding sessions.",
+    "tech": [
+      "VS Code Extension API",
+      "JSON Color Theme"
+    ],
+    "link": "https://marketplace.visualstudio.com/items?itemName=sumitpal29.calm-coder-themes",
+    "github": "https://github.com/sumitpal29/calm-coder-themes",
+    "year": "2025"
+  },
+  {
     "title": "Git-Backed Developer Portfolio",
     "description": "A high-performance personal portfolio built on a unique Git-as-a-Database architecture. Content is managed separately through a headless Git workflow and fetched dynamically from GitHub using a custom SDK, combining static speed with dynamic flexibility through ISR.",
     "tech": [
