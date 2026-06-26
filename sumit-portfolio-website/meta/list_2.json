@@ -1,7 +1,24 @@
 {
   "page": 2,
-  "totalPosts": 12,
+  "totalPosts": 13,
   "items": [
+    {
+      "slug": "how-do-i-review-frontend-code-as-a-senior-developer",
+      "title": "How do I review Frontend Code as a Senior Developer",
+      "createdAt": "2026-05-02T15:37:31.535Z",
+      "updatedAt": "2026-05-02T15:41:54.468Z",
+      "metadata": {
+        "title": "How do I review Frontend Code as a Senior Developer",
+        "description": "",
+        "heroImage": "https://i.imgur.com/n7VlWXq.png",
+        "draft": true,
+        "publishedAt": "2025-03-03T15:36:00.000Z"
+      },
+      "description": "",
+      "heroImage": "https://i.imgur.com/n7VlWXq.png",
+      "draft": false,
+      "publishedAt": "2025-03-03T10:06:00.000Z"
+    },
     {
       "slug": "decoding-styled-components-resolution-in-package-json",
       "title": "Decoding Styled Components Resolution in package.json",
