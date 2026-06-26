@@ -1,17 +1,17 @@
 ---
-title: 'I Built a Sticky Notes App Over a Weekend, It Got 1,000+ Users in 7 Days'
+title: 'A Weekend project Got 1,000+ Users in 7 Days'
 slug: i-built-sticky-notes-app-over-weekend-got-1000-users-7-days
 createdAt: '2026-06-26T17:02:16.696Z'
-updatedAt: '2026-06-26T17:17:05.674Z'
+updatedAt: '2026-06-26T18:56:12.209Z'
 metadata:
   title: 'I Built a Sticky Notes App Over a Weekend — It Got 1,000+ Users in 7 Days'
   description: ''
   draft: true
   publishedAt: '2026-06-26T11:31:00.000Z'
   slug: i-built-sticky-notes-app-over-weekend-got-1000-users-7-days
-description: All Sticky Notes - my first pet project that blasted and users are loving it
+description: All Sticky Notes - my first pet project that blasted and users are loving it around the world
 draft: true
-publishedAt: '2026-06-26T00:31:00.000Z'
+publishedAt: '2026-06-25T19:01:00.000Z'
 heroImage: 'https://raw.githubusercontent.com/sumitpal29/sumit-pal-portfolio-database/main/sumit-portfolio-website/assets/sticky-notes-mini-apps.png'
 ---
 I didn't plan to build a product. I just wanted a sticky notes app that actually felt good to use.
