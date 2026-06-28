@@ -2,7 +2,7 @@
 title: 'A Weekend project Got 1,000+ Users in 7 Days'
 slug: i-built-sticky-notes-app-over-weekend-got-1000-users-7-days
 createdAt: '2026-06-26T17:02:16.696Z'
-updatedAt: '2026-06-26T19:38:21.183Z'
+updatedAt: '2026-06-28T16:43:35.995Z'
 metadata:
   title: 'I Built a Sticky Notes App Over a Weekend — It Got 1,000+ Users in 7 Days'
   description: ''
@@ -11,12 +11,12 @@ metadata:
   slug: i-built-sticky-notes-app-over-weekend-got-1000-users-7-days
 description: All Sticky Notes - my first pet project that blasted and users are loving it around the world
 draft: false
-publishedAt: '2026-06-25T08:01:00.000Z'
+publishedAt: '2026-06-25T02:31:00.000Z'
 heroImage: 'https://raw.githubusercontent.com/sumitpal29/sumit-pal-portfolio-database/main/sumit-portfolio-website/assets/sticky-notes-mini-apps.png'
 ---
 Honestly, I didn't plan to build a product. I just wanted a sticky notes app that actually felt good to use.
 
-That was the weekend idea. Six weeks later, [AllStickyNotes.com](https://allstickynotes.com) had crossed 1,000 unique users in its first week — with zero paid ads, no Product Hunt launch, just genuine word of mouth from people who found it useful.
+That was the weekend idea. two weeks later, [AllStickyNotes.com](https://allstickynotes.com) had crossed 1,000 unique users in its first week — with zero paid ads, no Product Hunt launch, just genuine word of mouth from people who found it useful.
 
 Here's the honest story of how it happened.
 
@@ -95,9 +95,6 @@ Paste any URL and get a rich preview card automatically — title, description, 
 
 ### Countdown Timer
 Set a custom countdown, watch a circular progress ring drain down. When it hits zero, an Apple-style chime plays. Useful for meetings, cooking timers, short deadlines.
-
-<!-- IMAGE SLOT -->
-<!-- [Insert: Board showing multiple mini apps together — pomodoro, habits, clock, water tracker] -->
 
 ---
 
