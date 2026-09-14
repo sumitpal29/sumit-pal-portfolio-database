@@ -1,7 +1,24 @@
 {
   "page": 2,
-  "totalPosts": 13,
+  "totalPosts": 14,
   "items": [
+    {
+      "slug": "ways-to-optimise-performance-in-react-applications",
+      "title": "Ways to optimise performance in React applications",
+      "createdAt": "2026-05-02T15:38:45.423Z",
+      "updatedAt": "2026-05-02T15:42:12.441Z",
+      "metadata": {
+        "title": "Ways to optimise performance in React applications",
+        "description": "",
+        "heroImage": "https://imgur.com/RzLeI9S.png",
+        "draft": true,
+        "publishedAt": "2024-05-30T15:38:00.000Z"
+      },
+      "description": "",
+      "heroImage": "https://imgur.com/RzLeI9S.png",
+      "draft": false,
+      "publishedAt": "2024-05-30T10:08:00.000Z"
+    },
     {
       "slug": "how-do-i-review-frontend-code-as-a-senior-developer",
       "title": "How do I review Frontend Code as a Senior Developer",

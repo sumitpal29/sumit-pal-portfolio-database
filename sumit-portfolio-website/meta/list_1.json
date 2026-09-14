@@ -1,12 +1,29 @@
 {
   "page": 1,
-  "totalPosts": 13,
+  "totalPosts": 14,
   "items": [
+    {
+      "slug": "build-local-background-remover-app-rembg",
+      "title": "I Built a Local Background Remover App (No Uploads, No Cloud, No Cost)",
+      "createdAt": "2026-09-14T13:00:00.000Z",
+      "updatedAt": "2026-09-14T14:55:36.743Z",
+      "metadata": {
+        "title": "I Built a Local Background Remover App (No Uploads, No Cloud, No Cost)",
+        "description": "",
+        "draft": false,
+        "publishedAt": "2026-09-14T13:00:00.000Z",
+        "slug": "build-local-background-remover-app-rembg"
+      },
+      "description": "How I turned a five-minute \"remove the background from this image\" need into a proper local web app, and how you can run it yourself, even if you've never touched Python before.",
+      "draft": false,
+      "publishedAt": "2026-09-14T13:00:00.000Z",
+      "heroImage": "https://raw.githubusercontent.com/sumitpal29/sumit-pal-portfolio-database/main/sumit-portfolio-website/assets/bg-remover-hero.png"
+    },
     {
       "slug": "i-built-sticky-notes-app-over-weekend-got-1000-users-7-days",
       "title": "A Weekend project Got 1,000+ Users in 7 Days",
       "createdAt": "2026-06-26T17:02:16.696Z",
-      "updatedAt": "2026-06-26T19:38:21.183Z",
+      "updatedAt": "2026-06-28T16:43:35.995Z",
       "metadata": {
         "title": "I Built a Sticky Notes App Over a Weekend — It Got 1,000+ Users in 7 Days",
         "description": "",
@@ -16,7 +33,7 @@
       },
       "description": "All Sticky Notes - my first pet project that blasted and users are loving it around the world",
       "draft": false,
-      "publishedAt": "2026-06-25T08:01:00.000Z",
+      "publishedAt": "2026-06-25T02:31:00.000Z",
       "heroImage": "https://raw.githubusercontent.com/sumitpal29/sumit-pal-portfolio-database/main/sumit-portfolio-website/assets/sticky-notes-mini-apps.png"
     },
     {
@@ -153,23 +170,6 @@
       "heroImage": "https://i.imgur.com/3Ct04Hq.png",
       "draft": false,
       "publishedAt": "2023-10-16T10:11:00.000Z"
-    },
-    {
-      "slug": "ways-to-optimise-performance-in-react-applications",
-      "title": "Ways to optimise performance in React applications",
-      "createdAt": "2026-05-02T15:38:45.423Z",
-      "updatedAt": "2026-05-02T15:42:12.441Z",
-      "metadata": {
-        "title": "Ways to optimise performance in React applications",
-        "description": "",
-        "heroImage": "https://imgur.com/RzLeI9S.png",
-        "draft": true,
-        "publishedAt": "2024-05-30T15:38:00.000Z"
-      },
-      "description": "",
-      "heroImage": "https://imgur.com/RzLeI9S.png",
-      "draft": false,
-      "publishedAt": "2024-05-30T10:08:00.000Z"
     }
   ]
 }
